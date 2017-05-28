@@ -1,0 +1,5 @@
+useDynLib(RGraphM,.registration = TRUE, .fixes = "RGraphM_")
+importFrom(Rcpp, evalCpp)
+export("run_graph_match")
+
+
