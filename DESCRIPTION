@@ -1,7 +1,7 @@
 Package: RGraphM
 Type: Package
 Title: Graph Matching Library for R
-Version: 0.1.0
+Version: 0.1.1
 Author: Sancar Adali
 Maintainer: Sancar Adali <sancar.adali@gmail.com>
 Description: This is a wrapper package for the graph matching library 'graphm'. The original 'graphm' C/C++ library can be found in <http://cbio.mines-paristech.fr/graphm/> . Latest version ( 0.52 ) of this library is slightly modified to fit 'Rcpp' usage and include in the source package.
@@ -11,6 +11,6 @@ Imports: Rcpp (>= 0.12), RcppGSL (>= 0.3)
 LinkingTo: Rcpp,RcppGSL
 NeedsCompilation: yes
 RoxygenNote: 6.0.1
-Packaged: 2017-05-27 16:03:12 UTC; Samcar
+Packaged: 2017-06-06 18:53:57 UTC; sadali
 Repository: CRAN
-Date/Publication: 2017-05-28 06:20:16 UTC
+Date/Publication: 2017-06-06 19:06:54 UTC
