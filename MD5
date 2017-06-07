@@ -1,4 +1,4 @@
-195493b6e356551ff9f0c4131c989080 *DESCRIPTION
+2314feecef858dcb717ab3083841a32c *DESCRIPTION
 a60054ffdda00aee1f99d53323ae3968 *NAMESPACE
 b4d283d46e5546755d3c688ec6e260b2 *R/RcppExports.R
 65655f3d4e8e2425b69ab5248c083be8 *R/hello.R
@@ -10,7 +10,7 @@ e7f57c1b3999c250553934ccfe51234c *data/A_H.RData
 54904da38573c32b3a8be900c15e94cb *inst/extdata/A_H.rds
 d41d8cd98f00b204e9800998ecf8427e *inst/include/tmp.txt
 3e2e5e733f57af9b3b6a30934a6e3d05 *man/graph_data.Rd
-7120c7b1f23b02c177e67c19b07b85d3 *man/run_graph_match.Rd
+4ac85aa34be9b2d12d2b62f792569412 *man/run_graph_match.Rd
 6c4b608645684236cc5adfefe982795f *src/Makevars.in
 11ba078403d806fcdf4a7c903efd92b0 *src/Makevars.win
 5a8928aa5747c7031a7446dd47f321fe *src/RGraphM_init.c
@@ -20,7 +20,7 @@ d41d8cd98f00b204e9800998ecf8427e *inst/include/tmp.txt
 ea7627c145486a1e6650aeb95bd5e11c *src/graphm/algorithm.cpp
 1ddb949cc8ea28ae0ed46cf1efa9a892 *src/graphm/algorithm.h
 3ee69ffc0c6d7bffcd457bd0040c65ba *src/graphm/algorithm_ca.cpp
-891a970de4b5b031880a93f050e910b4 *src/graphm/algorithm_ca.h
+c068616d8a7356120532451751146251 *src/graphm/algorithm_ca.h
 ef72678504d8e93f226655f3ae7fa8a0 *src/graphm/algorithm_ext.cpp
 5462a024d084aabf32349266bf934c4b *src/graphm/algorithm_ext.h
 7c3edb3502e07f2b8437d953cf2cb569 *src/graphm/algorithm_fsol.cpp
@@ -29,7 +29,7 @@ ef72678504d8e93f226655f3ae7fa8a0 *src/graphm/algorithm_ext.cpp
 b67d3f55088104749b1e9b5840834362 *src/graphm/algorithm_iden.h
 0e74672db52002be9d13c8473a5480f5 *src/graphm/algorithm_lp.cpp
 99a0f7d3b18608833d32fbff19c0bdec *src/graphm/algorithm_lp.h
-a035375b802dfff93c71aa21bf479b20 *src/graphm/algorithm_path.cpp
+e1ef036741e706cee46f01c47d1071ff *src/graphm/algorithm_path.cpp
 fb0034d4cafb368c08c6060731d66165 *src/graphm/algorithm_path.h
 c8d70fcb6c38a3ff37fa25b1dffec455 *src/graphm/algorithm_qcv.cpp
 8b1f54a63c5d39928815e35d415e4544 *src/graphm/algorithm_qcv.h
@@ -48,8 +48,8 @@ d41d8cd98f00b204e9800998ecf8427e *src/graphm/bin/tmp.txt
 e0c7f6478b1a9888adc27e4ea1e00c87 *src/graphm/doc/graphm_doc.pdf
 60354b5969a4fc4905f48b4c4d8ffb3f *src/graphm/experiment.cpp
 e88c1f312f001002e0729d079e5b8f0b *src/graphm/experiment.h
-053e60c8b1d0934d1f81304a9c777dde *src/graphm/graph.cpp
-55d1246ab1c8590d992b426e4373c121 *src/graphm/graph.h
+f75d6eec07722c852397044f303c58a0 *src/graphm/graph.cpp
+6f5adce4573e5a1dedc7b83e144fd0b4 *src/graphm/graph.h
 08933cf1c43f0fe97316bf2d1875a6c7 *src/graphm/graphm_install
 a5a32fb58ee3bdaac32fa18c7b730d45 *src/graphm/hungarian.cpp
 16eb7022a78496aa6fabbfc000f2ae77 *src/graphm/hungarian.h
