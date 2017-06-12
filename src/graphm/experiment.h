@@ -37,7 +37,7 @@
 #include "algorithm_path.h"
 #include "algorithm_ca.h"
 #include "algorithm_ext.h"
-#include <strstream>
+#include <sstream>
 #include <stdexcept>
 #include <exception>
 #include <string>
@@ -52,7 +52,7 @@ Experiment class. It implements all extern routines for graph matching experimen
 class experiment : public rpc
 {
 public:
-    experiment(std::string fconfig="config.txt"):rpc(fconfig){};
+    experiment(std::string fconfig="config.txt"):rpc(fconfig) {};
     void run_experiment();
     void run_experiment(graph &g,graph &h);
     ~experiment();
