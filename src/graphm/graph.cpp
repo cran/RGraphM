@@ -29,22 +29,26 @@
 graph::graph(const gsl_matrix *_gm_A) : rpc("")
 {
 	gm_A = NULL;
+	N = 0;
 	set_adjmatrix(_gm_A);
+	
 }
 
 graph::graph(std::string fconfig)
 	: rpc(fconfig)
 {
+	N = 0;
 	gm_A = NULL;
 }
 graph::graph(graph &gr) : rpc()
 {
 	gm_A = NULL;
+	N = 0;
 	const gsl_matrix *gm_t = gr.get_adjmatrix();
 	set_adjmatrix(gm_t);
 }
 
-const graph &graph::operator=(graph &gh)
+graph &graph::operator=(graph &gh)
 {
 	if (&gh != this)
 	{
@@ -126,7 +130,7 @@ int graph::add_dummy_nodes(int id)
 	double dmin = gsl_matrix_min(gm_A);
 	double dmax = gsl_matrix_max(gm_A);
 	dmin = (1 - ddummy_nodes_fill) * dmin + ddummy_nodes_fill * dmax;
-	gsl_matrix *gm_A_new = gsl_matrix_alloc(N + id, N + id);
+	gsl_matrix *gm_A_new = gsl_matrix_alloc(Nn, Nn);
 	gsl_matrix_view gmv_A_new = gsl_matrix_submatrix(gm_A_new, 0, 0, N, N);
 	gsl_matrix_set_all(gm_A_new, dmin);
 	gsl_matrix_memcpy(&gmv_A_new.matrix, gm_A);
@@ -231,12 +235,13 @@ void graph::printdot(std::string fname_out, gsl_matrix *gm_P)
 				}
 				else
 				{
-					fout << c << gper[i] << "->" << i << c << "--" << c << gper[j] << "->" << j << c << ";" << std::endl;
+				  int gper_i =gper[i];
+					fout << c << gper_i << "->" << i << c << "--" << c << gper[j] << "->" << j << c << ";" << std::endl;
 				}
 	};
 	fout << "}" << std::endl;
-	if (gm_P != NULL)
-		gsl_matrix_free(gm_temp);
+	//remove gm_temp to stop memory leak
+	gsl_matrix_free(gm_temp);
 }
 
 graph::~graph()
