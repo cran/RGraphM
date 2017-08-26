@@ -1,4 +1,4 @@
-a70cba5ae8fc49f50e41e6f1dc81b0f1 *DESCRIPTION
+1041c76f57aa3350c4dfd1d5e0cc5a5a *DESCRIPTION
 32ac7230ed825c9545479e566e96ff5b *NAMESPACE
 bd2dcf1da007ae4fe4d125fb8f9e0e56 *R/RcppExports.R
 65655f3d4e8e2425b69ab5248c083be8 *R/hello.R
@@ -11,7 +11,7 @@ e7f57c1b3999c250553934ccfe51234c *data/A_H.RData
 54904da38573c32b3a8be900c15e94cb *inst/extdata/A_H.rds
 d41d8cd98f00b204e9800998ecf8427e *inst/include/tmp.txt
 263de474fd076487848b31b1f315b4e0 *man/graph_data.Rd
-953b0f30722cd8769b03ba6a804fb558 *man/run_graph_match.Rd
+916268c4e55d1feeccb3a1a471bae15c *man/run_graph_match.Rd
 8a6f8d90988210ab5a37e09f8b9e58e1 *src/Makevars.in
 e328e18c747aba098b64224fbeb69c4f *src/Makevars.win
 5a8928aa5747c7031a7446dd47f321fe *src/RGraphM_init.c
@@ -30,7 +30,7 @@ c068616d8a7356120532451751146251 *src/graphm/algorithm_ca.h
 b67d3f55088104749b1e9b5840834362 *src/graphm/algorithm_iden.h
 0e74672db52002be9d13c8473a5480f5 *src/graphm/algorithm_lp.cpp
 99a0f7d3b18608833d32fbff19c0bdec *src/graphm/algorithm_lp.h
-4792cc116ed50f28a8465a53f3549129 *src/graphm/algorithm_path.cpp
+6eea70fed77c6f1fc51abf04e799b187 *src/graphm/algorithm_path.cpp
 96ff657c42768c852883b34beb136847 *src/graphm/algorithm_path.h
 e1d805d67c34241011e42ca0aa02ef50 *src/graphm/algorithm_qcv.cpp
 8b1f54a63c5d39928815e35d415e4544 *src/graphm/algorithm_qcv.h
